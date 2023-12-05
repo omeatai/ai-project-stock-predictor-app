@@ -7,9 +7,9 @@ This is a modern AI Stock Predictor Application built with React, TailwindCSS, H
 ## Development Tools/Stack
 
 - React [https://react.dev/](https://react.dev/)
-- TailwindCSS [https://nodejs.org/en/](https://nodejs.org/en/)
-- Hugging Face [https://expressjs.com/](https://expressjs.com/)
-- LangChain [https://www.mongodb.com/cloud/atlas/register](https://www.mongodb.com/cloud/atlas/register)
+- TailwindCSS [https://tailwindcss.com/docs/installation/framework-guides](https://tailwindcss.com/docs/installation/framework-guides)
+- Hugging Face [https://huggingface.co/](https://huggingface.co/)
+- LangChain [https://python.langchain.com/docs/get_started/introduction](https://python.langchain.com/docs/get_started/introduction)
 - React-Toastify [https://www.npmjs.com/package/react-toastify](https://www.npmjs.com/package/react-toastify)
 - Axios [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
 - React Context API [https://react.dev/learn/passing-data-deeply-with-context](https://react.dev/learn/passing-data-deeply-with-context)
@@ -60,9 +60,9 @@ yarn start
 # #End</details>
 
 <details>
-<summary>3. Create Components </summary>
+<summary>3. Create Components with tailwindCSS </summary>
 
-# Create Components
+# Create Components with tailwindCSS
 
 ```x
 
