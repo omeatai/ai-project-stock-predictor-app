@@ -46,9 +46,23 @@ yarn start
 # #End</details>
 
 <details>
-<summary>2. Create  </summary>
+<summary>2. Create Context API with states </summary>
 
-# Create 
+# Create Context API with states
+
+### [https://github.com/omeatai/ai-project-stock-predictor-app/commit/8ca0d5121001f5ccbd8183b6262ec3ef857fad2a](https://github.com/omeatai/ai-project-stock-predictor-app/commit/8ca0d5121001f5ccbd8183b6262ec3ef857fad2a)
+
+<img width="1093" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/246df273-e6aa-4a11-99e9-54a3a068b936">
+<img width="1093" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/4a134f83-b5b9-4b51-8424-bbbff3712c05">
+<img width="1093" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/d9f58d0b-e38e-4a57-a7a8-c5d5967677ee">
+<img width="1265" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/d5dd25e3-4333-483f-b40b-5d051975a500">
+
+# #End</details>
+
+<details>
+<summary>3. Create Components </summary>
+
+# Create Components
 
 ```x
 
