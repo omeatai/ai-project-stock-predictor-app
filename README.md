@@ -64,20 +64,40 @@ yarn start
 
 # Create Components with tailwindCSS
 
-```x
+# Install TailwindCSS
 
+```x
+npm install -D tailwindcss
+npx tailwindcss init
 ```
 
-```x
+# tailwind.config.js
 
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
 ```
 
-```x
+# index.css
 
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 ```
 
-```x
+# Start your build process
 
+```x
+npm run start
 ```
 
 ```x
