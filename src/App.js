@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { useContext, useEffect } from "react";
+import StockContext from "./contexts/stockContext";
+import "./App.css";
 
 function App() {
+  const { stockInputs, setStockInputs } = useContext(StockContext);
+
+  useEffect(() => {
+    console.log(stockInputs);
+  }, [stockInputs]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Stock Predictor App</h1>
+      <input type="text" onChange={(e) => setStockInputs(e.target.value)} />
     </div>
   );
 }
