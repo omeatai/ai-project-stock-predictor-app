@@ -8,6 +8,8 @@ This is a modern AI Stock Predictor Application built with React, TailwindCSS, H
 
 - React [https://react.dev/](https://react.dev/)
 - TailwindCSS [https://tailwindcss.com/docs/installation/framework-guides](https://tailwindcss.com/docs/installation/framework-guides)
+- OpenAI Node API Library [https://www.npmjs.com/package/openai](https://www.npmjs.com/package/openai)
+- OpenAI [https://platform.openai.com/docs/overview](https://platform.openai.com/docs/overview)
 - Hugging Face [https://huggingface.co/](https://huggingface.co/)
 - LangChain [https://python.langchain.com/docs/get_started/introduction](https://python.langchain.com/docs/get_started/introduction)
 - Polygon.io [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
@@ -147,6 +149,25 @@ npm i react-toastify
 <summary>5. Open AI Setup </summary>
 
 # Open AI Setup
+
+# Install OpenAI Node API Library
+
+```x
+npm i openai
+```
+
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/bbda0b28-48b8-4dd9-b532-c869818fe7d0">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/ccd0892a-bc52-4950-90e6-e0bbfc7dc317">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/c41b7ef4-07eb-4ca3-950c-2f4c97660fd1">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/39a66bd2-50e4-4061-8da0-3f10b2799e18">
+
+
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/4d31acf6-b9d9-41ec-80c2-2cc14734b1e4">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/0703d553-bb30-48b2-8050-20567f5a58dd">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/2ce5655d-45b1-4f51-a659-c7254a1d6b03">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/0a938ee4-9c4e-4537-83c7-b1bfd56e7c28">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/07086232-ddac-4a45-9dd7-9a4cc1cf750e">
+<img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/3b98c4cf-cca7-4177-b636-b2971d18f04a">
 
 ```x
 
