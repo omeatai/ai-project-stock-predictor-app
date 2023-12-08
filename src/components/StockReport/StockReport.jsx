@@ -1,5 +1,6 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import StockContext from "../../contexts/stockContext";
+import openAIResponse from "../../utils/openai";
 
 const StockReport = () => {
   const {
@@ -9,6 +10,10 @@ const StockReport = () => {
     LoadingMessage,
     fetchStockData,
   } = useContext(StockContext);
+
+  useEffect(() => {
+    openAIResponse();
+  }, []);
 
   return (
     <main>
