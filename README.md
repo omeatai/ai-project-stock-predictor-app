@@ -10,6 +10,7 @@ This is a modern AI Stock Predictor Application built with React, TailwindCSS, H
 - TailwindCSS [https://tailwindcss.com/docs/installation/framework-guides](https://tailwindcss.com/docs/installation/framework-guides)
 - Hugging Face [https://huggingface.co/](https://huggingface.co/)
 - LangChain [https://python.langchain.com/docs/get_started/introduction](https://python.langchain.com/docs/get_started/introduction)
+- Polygon.io [https://polygon.io/docs/stocks/getting-started](https://polygon.io/docs/stocks/getting-started)
 - React-Toastify [https://www.npmjs.com/package/react-toastify](https://www.npmjs.com/package/react-toastify)
 - Axios [https://www.npmjs.com/package/axios](https://www.npmjs.com/package/axios)
 - React Context API [https://react.dev/learn/passing-data-deeply-with-context](https://react.dev/learn/passing-data-deeply-with-context)
