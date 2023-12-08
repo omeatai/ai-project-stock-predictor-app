@@ -150,6 +150,8 @@ npm i react-toastify
 
 # Open AI Setup
 
+### [https://github.com/omeatai/ai-project-stock-predictor-app/commit/1a82502b721b12740b43124e9c27eb60d34fd2f7](https://github.com/omeatai/ai-project-stock-predictor-app/commit/1a82502b721b12740b43124e9c27eb60d34fd2f7)
+
 # Install OpenAI Node API Library
 
 ```x
@@ -160,14 +162,24 @@ npm i openai
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/ccd0892a-bc52-4950-90e6-e0bbfc7dc317">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/c41b7ef4-07eb-4ca3-950c-2f4c97660fd1">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/39a66bd2-50e4-4061-8da0-3f10b2799e18">
-
-
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/4d31acf6-b9d9-41ec-80c2-2cc14734b1e4">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/0703d553-bb30-48b2-8050-20567f5a58dd">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/2ce5655d-45b1-4f51-a659-c7254a1d6b03">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/0a938ee4-9c4e-4537-83c7-b1bfd56e7c28">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/07086232-ddac-4a45-9dd7-9a4cc1cf750e">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/3b98c4cf-cca7-4177-b636-b2971d18f04a">
+<img width="1088" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/837645d9-360b-42a8-90ac-fa9267d2a880">
+<img width="1091" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/3ee77596-3642-4a1c-aa59-7d3e0de769cd">
+<img width="1088" alt="Screenshot 2023-12-08 at 2 35 21 PM" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/34083d4c-d368-406a-b360-3857dd124eb6">
+<img width="1313" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/daca6238-39f4-477c-8f1a-3792758a591d">
+<img width="548" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/9c1ecd2f-e336-4bef-b7f3-fbef73cb99a4">
+
+# #End</details>
+
+<details>
+<summary>6. Adding Open AI to Component </summary>
+
+# Adding Open AI to Component 
 
 ```x
 
