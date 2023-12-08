@@ -60,9 +60,11 @@ yarn start
 # #End</details>
 
 <details>
-<summary>3. Create Components with tailwindCSS </summary>
+<summary>3. Create Components Logic with tailwindCSS </summary>
 
-# Create Components with tailwindCSS
+# Create Components Logic with tailwindCSS
+
+### [https://github.com/omeatai/ai-project-stock-predictor-app/commit/7aecb8a52fd00ae01b2b9753749fe5e6617eb2db](https://github.com/omeatai/ai-project-stock-predictor-app/commit/7aecb8a52fd00ae01b2b9753749fe5e6617eb2db)
 
 # Install TailwindCSS
 
@@ -100,9 +102,27 @@ module.exports = {
 npm run start
 ```
 
-```x
+# Install React-Toastify
 
+```x
+npm i react-toastify
 ```
+
+<img width="1095" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/af1566ad-58df-4002-a73e-33bc7fcd2f55">
+<img width="1095" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/7f531d5a-a380-4b55-8501-8d1af28f356b">
+<img width="1095" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/1015f1cc-d36f-45b0-b958-4851cd198cc7">
+<img width="1095" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/6f839a18-99c7-4468-8e8e-e6407c39fce0">
+<img width="1095" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/087ed7ae-2b65-444c-858f-73bfc8afc29a">
+<img width="1095" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/a1952ca3-c8be-4dde-8e92-1c72adab860c">
+<img width="1313" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/48384fe8-e8f2-40d4-b694-91d2f803b775">
+<img width="1313" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/ebc36724-0577-42df-879b-9d1fd2c0a739">
+
+# #End</details>
+
+<details>
+<summary>4. Fetch Stock Data </summary>
+
+# Fetch Stock Data
 
 ```x
 
