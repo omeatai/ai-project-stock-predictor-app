@@ -2,7 +2,13 @@ import { useContext } from "react";
 import StockContext from "../../contexts/stockContext";
 
 const StockReport = () => {
-  const { stockSelected, stockData, LoadingPanel } = useContext(StockContext);
+  const {
+    stockSelected,
+    stockData,
+    LoadingPanel,
+    LoadingMessage,
+    fetchStockData,
+  } = useContext(StockContext);
 
   return (
     <main>
@@ -10,6 +16,9 @@ const StockReport = () => {
         {stockSelected ? (
           <button
             type="button"
+            onClick={() => {
+              fetchStockData();
+            }}
             className="flex justify-between items-center text-xl font-semibold text-white bg-red-400 w-full py-2 px-8 my-4 rounded rounded-lg"
           >
             <img src="assets/cloud.svg" className="w-8" alt="add" />
@@ -41,11 +50,7 @@ const StockReport = () => {
           cols="30"
           rows="10"
           disabled={true}
-          value={
-            stockData.length > 0
-              ? stockData
-              : "Report will be generated here..."
-          }
+          value={stockData.length > 0 ? stockData : LoadingMessage}
         ></textarea>
       </section>
     </main>
