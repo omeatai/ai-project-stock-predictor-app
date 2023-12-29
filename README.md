@@ -194,6 +194,22 @@ async function main() {
 export default main;
 ```
 
+```x
+{
+    "index": 0,
+    "message": {
+        "role": "assistant",
+        "content": "Several inventors and scientists contributed to the development of television technology. However, the first practical and working television system was demonstrated by Philo Farnsworth in 1927. Farnsworth is often credited as the inventor of the television, as he was the first to successfully transmit a television image using his electronic television system."
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+}
+```
+
+```x
+Several inventors and scientists contributed to the development of television technology. However, the first practical and working television system was demonstrated by Philo Farnsworth in 1927. Farnsworth is often credited as the inventor of the television, as he was the first to successfully transmit a television image using his electronic television system.
+```
+
 # Openai.js Example 2:
 
 ```js
@@ -251,14 +267,6 @@ Quantum computing is like a super-magic computer. Imagine if your toy box could 
 <summary>6. Adding Open AI to Component </summary>
 
 # Adding Open AI to Component 
-
-```x
-
-```
-
-```x
-
-```
 
 ```x
 
