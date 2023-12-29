@@ -158,6 +158,43 @@ npm i react-toastify
 npm i openai
 ```
 
+# Openai.js
+
+```js
+import OpenAI from "openai";
+
+const openai = new OpenAI({
+  apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+  dangerouslyAllowBrowser: true,
+  //   organizationId: process.env.REACT_APP_ORGANIZATION_ID,
+});
+
+const messages = [
+  {
+    role: "system",
+    content: "You are a helpful general knowledge expert.",
+  },
+  {
+    role: "user",
+    content: "Who invented the television?",
+  },
+  // { role: "assistant", content: "The invention of television was the work of many individuals in the late 19th century and early 20th century. However, Scottish engineer John Logie Baird is often associated with creating the first mechanical television. He demonstrated his working device in January 1926 in London. Concurrently in the United States, Philo Farnsworth is credited with inventing the first fully electronic television in the late 1920s." }
+];
+
+async function main() {
+  const completion = await openai.chat.completions.create({
+    messages: messages,
+    model: "gpt-3.5-turbo-1106", // "gpt-4-1106-preview" // "gpt-4-0613" // "gpt-4" // "gpt-3.5-turbo-1106" // "gpt-3.5-turbo"
+  });
+
+  console.log(completion.choices[0]);
+  console.log(completion.choices[0].message.content);
+}
+
+export default main;
+
+```
+
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/bbda0b28-48b8-4dd9-b532-c869818fe7d0">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/ccd0892a-bc52-4950-90e6-e0bbfc7dc317">
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/c41b7ef4-07eb-4ca3-950c-2f4c97660fd1">
@@ -173,6 +210,9 @@ npm i openai
 <img width="1088" alt="Screenshot 2023-12-08 at 2 35 21 PM" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/34083d4c-d368-406a-b360-3857dd124eb6">
 <img width="1313" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/daca6238-39f4-477c-8f1a-3792758a591d">
 <img width="548" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/9c1ecd2f-e336-4bef-b7f3-fbef73cb99a4">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/e66650cc-e59f-4640-8af0-ac5133efa806">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/5479a4a6-89cc-4acc-a1ed-9ecdfe0eeeb1">
+<img width="1354" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/70e2b3ed-d1f5-404e-8147-6e90a6aa91d5">
 
 # #End</details>
 
