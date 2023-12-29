@@ -1,8 +1,8 @@
-# AI Project - Stock Predictor App
+# AI Projects - Stock Predictor App and More
 
 ## Introduction
 
-This is a modern AI Stock Predictor Application built with React, TailwindCSS, Hugging Face and LangChain by Ifeanyi Omeata.
+This are modern AI Projects like a Stock Predictor Application built with React, TailwindCSS, Hugging Face and LangChain by Ifeanyi Omeata.
 
 ## Development Tools/Stack
 
@@ -48,8 +48,10 @@ yarn start
 
 # #End</details>
 
++Stock Predictor App
+
 <details>
-<summary>2. Create Context API with states </summary>
+<summary>2. Stock Predictor App - Create Context API with states </summary>
 
 # Create Context API with states
 
@@ -63,7 +65,7 @@ yarn start
 # #End</details>
 
 <details>
-<summary>3. Create Components Logic with tailwindCSS </summary>
+<summary>3. Stock Predictor App - Create Components Logic with tailwindCSS </summary>
 
 # Create Components Logic with tailwindCSS
 
@@ -123,7 +125,7 @@ npm i react-toastify
 # #End</details>
 
 <details>
-<summary>4. Fetch Stock Data </summary>
+<summary>4. Stock Predictor App - Fetch Stock Data </summary>
 
 # Fetch Stock Data
 
@@ -146,7 +148,7 @@ npm i react-toastify
 # #End</details>
 
 <details>
-<summary>5. Open AI Setup </summary>
+<summary>5. Stock Predictor App - Open AI Setup </summary>
 
 # Open AI Setup
 
@@ -264,7 +266,7 @@ Quantum computing is like a super-magic computer. Imagine if your toy box could 
 # #End</details>
 
 <details>
-<summary>6. Adding Open AI to App Component </summary>
+<summary>6. Stock Predictor App - Adding Open AI to App Component </summary>
 
 # Adding Open AI to App Component 
 
@@ -308,6 +310,7 @@ async function main(data) {
       messages: messages,
       model: "gpt-3.5-turbo-1106", // "gpt-4-1106-preview" // "gpt-4-0613" // "gpt-4" // "gpt-3.5-turbo-1106" // "gpt-3.5-turbo"
       // max_tokens: 16 // default: inf
+      // temperature: 1.1
     });
 
     // console.log(completion.choices[0].message.content);
@@ -338,7 +341,7 @@ export default main;
 # #End</details>
 
 <details>
-<summary>7. A </summary>
+<summary>7. Stock Predictor App -  A </summary>
 
 # A
 
