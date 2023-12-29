@@ -264,9 +264,82 @@ Quantum computing is like a super-magic computer. Imagine if your toy box could 
 # #End</details>
 
 <details>
-<summary>6. Adding Open AI to Component </summary>
+<summary>6. Adding Open AI to App Component </summary>
 
-# Adding Open AI to Component 
+# Adding Open AI to App Component 
+
+### [https://github.com/omeatai/ai-project-stock-predictor-app/commit/127e300076a8b0610cf42fac66b077f61cb04bf5](https://github.com/omeatai/ai-project-stock-predictor-app/commit/127e300076a8b0610cf42fac66b077f61cb04bf5)
+
+# Openai.js
+
+```js
+import OpenAI from "openai";
+import { toast } from "react-toastify";
+const toastifyConfig = {
+  position: "bottom-left",
+  autoClose: 5000,
+  hideProgressBar: false,
+  closeOnClick: true,
+  pauseOnHover: true,
+  draggable: true,
+  progress: undefined,
+  theme: "colored",
+};
+
+async function main(data) {
+  const messages = [
+    {
+      role: 'system',
+      content: 'You are a trading guru. Given data on share prices over the past 3 days, write a report of no more than 150 words describing the stocks performance and recommending whether to buy, hold or sell.'
+    },
+    {
+      role: 'user',
+      content: data
+    }
+  ]
+
+  try {
+    const openai = new OpenAI({
+      apiKey: process.env.REACT_APP_OPENAI_API_KEY,
+      dangerouslyAllowBrowser: true,
+    });
+
+    const completion = await openai.chat.completions.create({
+      messages: messages,
+      model: "gpt-3.5-turbo-1106", // "gpt-4-1106-preview" // "gpt-4-0613" // "gpt-4" // "gpt-3.5-turbo-1106" // "gpt-3.5-turbo"
+    });
+
+    // console.log(completion.choices[0].message.content);
+    return completion.choices[0].message.content;
+
+  } catch (err) {
+    console.log('Error:', err)
+    toast.error("Unable to access AI. Please refresh and try again", toastifyConfig);
+  }
+}
+
+export default main;
+```
+
+<img width="1141" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/9f780088-2e29-48bb-aa2f-907aa3367198">
+<img width="1141" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/8ff980d5-46fb-49ac-8f53-06576b7bcc60">
+<img width="1141" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/afa60ef1-5e00-424a-9242-bf9923f62724">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/f3501744-888a-4f83-8308-043b6827656c">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/391ea371-9f4b-46ff-8508-8173343f934c">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/e67e63a6-b1d1-4c70-9b00-731cc7c98d1c">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/f2e6aac2-e002-4278-ab68-ac8a703946bf">
+<img width="1139" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/a0d7c055-e602-4ebb-af55-9031d71b7b42">
+<img width="1274" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/a68efb11-e0af-4e39-aafe-465b121c6d8a">
+<img width="1274" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/f98a481f-20b0-43ba-9780-1260de6397e6">
+<img width="1274" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/7b327553-03f6-4505-8999-3620129924cf">
+<img width="1274" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/bf7cdc17-1fef-4ccf-9f77-2b14130d6a69">
+
+# #End</details>
+
+<details>
+<summary>7. A </summary>
+
+# A
 
 ```x
 
