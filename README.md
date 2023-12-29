@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This are modern AI Projects like a Stock Predictor Application built with React, TailwindCSS, Hugging Face and LangChain by Ifeanyi Omeata.
+These are modern AI Projects like a Stock Predictor Application built with React, TailwindCSS, Hugging Face and LangChain by Ifeanyi Omeata.
 
 ## Development Tools/Stack
 
