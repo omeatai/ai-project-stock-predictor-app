@@ -158,7 +158,7 @@ npm i react-toastify
 npm i openai
 ```
 
-# Openai.js
+# Openai.js Example 1:
 
 ```js
 import OpenAI from "openai";
@@ -192,7 +192,38 @@ async function main() {
 }
 
 export default main;
+```
 
+# Openai.js Example 2:
+
+```js
+import OpenAI from 'openai'
+
+const openai = new OpenAI({
+    dangerouslyAllowBrowser: true
+})
+
+const messages = [
+    {
+        role: 'system',
+        content: 'You are a helpful assistant that explains things in language a 10-year-old can understand. Your answers are always less than 100 words.'
+    },
+    {
+        role: 'user',
+        content: 'What is Quantum Computing?'
+    }
+]
+
+const response = await openai.chat.completions.create({
+    model: 'gpt-4',
+    messages: messages
+})
+
+console.log(response.choices[0].message.content)
+```
+
+```x
+Quantum computing is like a super-magic computer. Imagine if your toy box could hold an infinite number of toys all at the same time, yet still fit in your room. Quantum computers can hold a lot more information than regular computers and solve problems much faster because they can look at many answers at once.
 ```
 
 <img width="1311" alt="image" src="https://github.com/omeatai/ai-project-stock-predictor-app/assets/32337103/bbda0b28-48b8-4dd9-b532-c869818fe7d0">
