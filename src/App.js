@@ -8,23 +8,25 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className=" bg-white w-screen h-screen">
+    <div className=" bg-white w-screen h-screen flex flex-col justify-center items-center">
       <Navbar />
       <ToastContainer
         position="bottom-left"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
+        autoClose={ 5000 }
+        hideProgressBar={ false }
+        newestOnTop={ false }
         closeOnClick
-        rtl={false}
+        rtl={ false }
         pauseOnFocusLoss
         draggable
         pauseOnHover
         theme="colored"
       />
-      <StockTicker />
-      <StockChoice />
-      <StockReport />
+      <section className="w-[95%] md:w-[60%] h-full">
+        <StockTicker />
+        <StockChoice />
+        <StockReport />
+      </section>
     </div>
   );
 }

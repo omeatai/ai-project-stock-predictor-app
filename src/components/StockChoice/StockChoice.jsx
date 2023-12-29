@@ -14,12 +14,12 @@ const StockChoice = () => {
     });
 
   return (
-    <section className="flex justify-center items-center px-4 w-screen text-2xl text-blue-400">
-      {stockSelected ? (
-        <h3>{stockSelectedMapped}</h3>
+    <section className="flex justify-center items-center px-4 w-full text-2xl text-blue-400">
+      { stockSelected ? (
+        <h3>{ stockSelectedMapped }</h3>
       ) : (
         "Stock Tickers here...."
-      )}
+      ) }
     </section>
   );
 };

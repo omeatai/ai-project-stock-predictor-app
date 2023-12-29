@@ -3,13 +3,14 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 import { dates } from "../utils/dates";
+import openAIResponse from "../utils/openai";
 
 export const StockContext = createContext();
 
 export const StockContextProvider = ({ children }) => {
-  const [stockData, setStockData] = useState([]);
-  const [stockInputs, setStockInputs] = useState([]);
-  const [stockSelected, setStockSelected] = useState("");
+  const [stockDataReport, setStockDataReport] = useState([]); // Fetched Data Report
+  const [stockInputs, setStockInputs] = useState([]); // String of stock ticker inputs
+  const [stockSelected, setStockSelected] = useState(""); // Array with all selected Inputs after submission
   const [LoadingPanel, setLoadingPanel] = useState(false);
   const [LoadingMessage, setLoadingMessage] = useState(
     "Report will be generated here..."
@@ -28,7 +29,10 @@ export const StockContextProvider = ({ children }) => {
 
   async function fetchReport(data) {
     console.log("Fetching stock data...");
-    console.log(data);
+    const report = await openAIResponse(data);
+    console.log(report);
+    setStockDataReport(report);
+    setLoadingMessage(report);
   }
 
   async function fetchStockData() {
@@ -44,6 +48,10 @@ export const StockContextProvider = ({ children }) => {
             return data;
           } else {
             setLoadingMessage("There was an error fetching stock data.....");
+            toast.error(
+              "There was an error fetching stock data.....",
+              toastifyConfig
+            );
           }
         })
       );
@@ -89,9 +97,9 @@ export const StockContextProvider = ({ children }) => {
 
   return (
     <StockContext.Provider
-      value={{
-        stockData,
-        setStockData,
+      value={ {
+        stockDataReport,
+        setStockDataReport,
         stockInputs,
         setStockInputs,
         stockSelected,
@@ -101,9 +109,9 @@ export const StockContextProvider = ({ children }) => {
         setLoadingPanel,
         LoadingMessage,
         fetchStockData,
-      }}
+      } }
     >
-      {children}
+      { children }
     </StockContext.Provider>
   );
 };
