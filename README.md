@@ -307,6 +307,7 @@ async function main(data) {
     const completion = await openai.chat.completions.create({
       messages: messages,
       model: "gpt-3.5-turbo-1106", // "gpt-4-1106-preview" // "gpt-4-0613" // "gpt-4" // "gpt-3.5-turbo-1106" // "gpt-3.5-turbo"
+      // max_tokens: 16 // default: inf
     });
 
     // console.log(completion.choices[0].message.content);
