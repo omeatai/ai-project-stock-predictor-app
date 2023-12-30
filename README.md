@@ -345,6 +345,8 @@ export default main;
 
 # Training Data with Sample Output
 
+### [https://github.com/omeatai/ai-projects-stock-predictor-app/commit/243f19beb65d134cc9adad2c9ccbc8246252d1da](https://github.com/omeatai/ai-projects-stock-predictor-app/commit/243f19beb65d134cc9adad2c9ccbc8246252d1da)
+
 # Openai.js
 
 ```js
@@ -417,9 +419,21 @@ Over the past three days, Microsoft (MSFT) stocks have demonstrated a consistent
 # #End</details>
 
 <details>
-<summary>8. Stock Predictor App -  Training  </summary>
+<summary>8. Stock Predictor App -  Using Stop Sequence  </summary>
 
-# Training 
+# Using Stop Sequence
+
+### [https://github.com/omeatai/ai-projects-stock-predictor-app/commit/df241650886601c0466cb972af9dbcea1b3f1903](https://github.com/omeatai/ai-projects-stock-predictor-app/commit/df241650886601c0466cb972af9dbcea1b3f1903)
+
+<img width="1270" alt="image" src="https://github.com/omeatai/ai-projects-stock-predictor-app/assets/32337103/54a70324-660e-4932-8ccd-0a190490f6aa">
+<img width="1141" alt="image" src="https://github.com/omeatai/ai-projects-stock-predictor-app/assets/32337103/07d8211b-0cb9-407d-a813-11d12958c297">
+
+# #End</details>
+
+<details>
+<summary>9. Stock Predictor App -  U </summary>
+
+# U
 
 ```x
 
