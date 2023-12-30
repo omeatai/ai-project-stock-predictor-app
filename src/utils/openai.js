@@ -42,6 +42,7 @@ async function main(data) {
       model: "gpt-3.5-turbo-1106", // "gpt-4-1106-preview" // "gpt-4-0613" // "gpt-4" // "gpt-3.5-turbo-1106" // "gpt-3.5-turbo"
       // max_tokens: 16 // default: inf
       // temperature: 1.1 // default: 0.7
+      stop: ['.'] // examples: ['\n', '3.', '.']
     });
 
     // console.log(completion.choices[0].message.content);
